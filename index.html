@@ -44,7 +44,7 @@
 		            	memory_tile_ids = [];
 						// Check to see if the whole board is cleared
 						if(tiles_flipped == memory_array.length){
-							alert("Board cleared... generating new board");
+							alert("Board cleared! Generating new board...");
 							document.getElementById('memoryBoard').innerHTML = "";
 							newBoard();
 						}
@@ -73,7 +73,24 @@
 	</head>
 
 	<body>
-		<div id = "memoryBoard"></div>
+		<div class = "container">
+			<div class = "header">
+					<!-- <ul id = "nav"> -->
+						<a class= "active3" href= "https://github.com/cherielum" style ="float: right; margin: 10px"> GitHub </a><!-- /li> -->
+						<!-- <li style= "float:right"> --> <a class= "active2" href= "mailto: cherie.lum2@gmail.com" style ="float: right; margin: 10px">Contact </a><!-- /li> -->
+						<!-- <li style= "float:right"> --> <a class= "active1" href= "../88days-homepage/homepage.html" style ="float: right; margin: 10px"> Home </a><!-- /li> -->
+					<!-- </ul> -->
+
+
+				<a class ="title"> Memory Game! </class>
+			</header>
+			<hr />
+
+			</div>
+
+			<div id = "memoryBoard">
+			</div>
+		
 	</body>
 	<script>newBoard();</script>
 

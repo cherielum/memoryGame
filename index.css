@@ -1,16 +1,58 @@
+* {
+	background-color: black;
+}
+
+
+ul li a, ul.nav li a:visited {
+    color: #A4E869; //yellow-lime
+}
+
+ul li a:hover, ul.nav li a:active {
+    color: #38c5fc; //logo-blue
+}
+
+ul li.active a {
+    color: #b5b59c; //light-brown
+}
+
+.active1 {
+	color: #b5b59c; //light brown
+}
+
+.active2 {
+	color: #b5b59c; //light brown
+}
+
+.active3 {
+	color: #b5b59c; //light brown
+}
+
+
+.container {
+	margin-top: 5px;
+	font-family: arial;
+	padding-top: 10px; //changes what looks like the margin- will adjust in end*/
+
+}
+
+.title {
+	font-size: 30px;
+	color: #05EDFF; 
+}
+
 div#memoryBoard {
-	background: #ccc; 
-	border: #999 1px solid; 
+	background: #000; 
+	border: #000 1px solid; 
 	width: 800px; 
 	height: 540px; 
 	padding: 24px; 
-	margin: 0px auto; 
+	margin: 20px auto; 
 }
 
 div#memoryBoard > div{
 	background: url(logo.png) 50% no-repeat;
 	background-size: 70px 90px;
-	border: #000 1px solid;
+	border: #05EDFF 1px solid;
 	width: 71px; 
 	height: 71px; 
 	float: left; 
@@ -22,3 +64,4 @@ div#memoryBoard > div{
 
 
 }
+
